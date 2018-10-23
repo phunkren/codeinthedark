@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+  body,
+  html {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #1d1d1d;
+    overflow: auto;
+  }
+
+  .container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .thumbnail {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: opacity 330ms, transform 660ms;
+    backface-visibility: hidden;
+    opacity: 0.75;
+    width: 373px;
+    height: 241px;
+    margin: 15px 15px 45px;
+    border: 1px solid #d1d1d1;
+    background-size: cover;
+    background-position: center center;
+    font-family: Lato, Helvetive Neue, Helvetica;
+    font-size: 22px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .thumbnail:hover {
+    transform: perspective(1px) scale(1.025);
+    border-color: #a2d83c;
+    opacity: 1;
+  }
+
+  .thumbnail span {
+    position: relative;
+    top: 35px;
+  }
+</style>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet" async="" />
+  <title>Code in the Dark 2018</title>
+</head>
+
+<body>
+  <main class="container">
+    <a class="thumbnail" href="./andrew.html" style="background-image: url('../previews/andrew.jpg')">
+      <span>Andrew</span>
+    </a>
+    <a class="thumbnail" href="./benoit.html" style="background-image: url('../previews/benoit.jpg')">
+      <span>Benoit</span>
+    </a>
+    <a class="thumbnail" href="./ian.html" style="background-image: url('../previews/ian.jpg')">
+      <span>Ian</span>
+    </a>
+    <a class="thumbnail" href="./jas.html" style="background-image: url('../previews/jas.jpg')">
+      <span>Jas</span>
+    </a>
+    <a class="thumbnail" href="./jenna.html" style="background-image: url('../previews/jenna.jpg')">
+      <span>Jenna</span>
+    </a>
+    <a class="thumbnail" href="./jimmy.html" style="background-image: url('../previews/jimmy.jpg')">
+      <span>Jimmy</span>
+    </a>
+    <a class="thumbnail" href="./luke.html" style="background-image: url('../previews/luke.jpg')">
+      <span>Luke</span>
+    </a>
+    <a class="thumbnail" href="./matt.html" style="background-image: url('../previews/matt.jpg')">
+      <span>Matt</span>
+    </a>
+    <a class="thumbnail" href="./matthieu.html" style="background-image: url('../previews/matthieu.jpg')">
+      <span>Matthieu</span>
+    </a>
+    <a class="thumbnail" href="./michel.html" style="background-image: url('../previews/michel.jpg')">
+      <span>Michel</span>
+    </a>
+    <a class="thumbnail" href="./pedro.html" style="background-image: url('../previews/pedro.jpg')">
+      <span>Pedro</span>
+    </a>
+    <a class="thumbnail" href="./sara.html" style="background-image: url('../previews/sara.jpg')">
+      <span>Sara</span>
+    </a>
+  </main>
+</body>
+
+</html>
